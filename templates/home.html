@@ -8,8 +8,12 @@
 <body>
 
 	<h1>Vice versa!</h1>
-	<form><textarea></textarea></form>	
-	<button>Reverce!</button>
+
+	<form action="{% url 'reverse' %}">
+		<textarea cols="50" rows="10" name="usertext"></textarea>
+		<br>
+		<input type="submit" value="Reverce!">
+	</form>	
 	
 </body>
 </html>
