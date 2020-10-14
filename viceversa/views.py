@@ -24,5 +24,9 @@ def reverse(request):
 
 	return render(request, 'reverse.html', {'usertext':user_text, 'reversedtext':text_rev, 'count_text':count})
 
-	#Так же можно было решить эту задачу селд образом
+	#Так же можно было решить задачу реверсирования селедующим образом
 	#text_rev = user_text[::-1] Этот вариант намного короче и проще
+
+	#Задачу по счету слов в предложении можно было решить след образм
+	#word = user_text.split()
+	#number_words = len(word)
